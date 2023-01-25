@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "Open Sans", montserrat;
+  font-family: montserrat, Arial, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
