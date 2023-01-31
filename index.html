@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
-    <link href="/output.css" rel="stylesheet" />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-    rel="stylesheet"
-  />
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="/build.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,14 +33,15 @@
       href="/icons/favicon-16x16.png"
     />
     <link rel="manifest" href="/icons/site.webmanifest" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
-    <div class="p-7 max-w-7xl mx-auto">
-      <nav class="flex flex-row justify-between items-center mb-20 lg:mb-0">
+    <div class="p-7 max-w-7xl mx-auto ">
+      <nav class="flex flex-row justify-between items-center mb-20">
         <a href="/" class="font-semibold flex flex-row items-center gap-4">
           <img src="icons/Group 2 (1).png" width="28" height="28" alt="Personlig logo" />Trym Foss</a
         >
-        <div class="flex flex-row items-center gap-10">
+        <div class="flex flex-row items-center gap-10 ">
 <a class="font-medium" href="/about.html">Om meg</a>
           <a
           href="mailto:trym-foss@hotmail.com"
@@ -56,10 +55,10 @@
       <header class="mb-20 lg:flex flex-row justify-between gap-8 items-center">
         <div>
           <h1 class="text-6xl mb-2.5 max-w-sm">
-            <span class="font-semibold">Utvikler</span> og
+            <span class="font-semibold ">Utvikler</span> og
             <span class="font-semibold">Designer</span>
           </h1>
-          <p class="text-xl mb-9 max-w-sm">
+          <p class="text-xl mb-9">
             med stor interesse for
             <span class="font-semibold">brukeropplevelse</span> og
             <span class="font-semibold">universell utforming</span>
@@ -71,16 +70,17 @@
             <img alt="" src="icons/messagetext1.svg" width="20" height="20"
           /></a>
         </div>
-        <div class="w-full h-auto max-w-xl">
+
+        <div  class="mt-14">
           <lottie-player
-            class="mt-14 conker"
-            size="2"
-            src="https://assets10.lottiefiles.com/packages/lf20_1jXwep7pBb.json"
-            background="transparent"
-            speed="1.5"
-            loop
-            autoplay
-          ></lottie-player>
+          class="mt-14 conker"
+          size="2"
+          src="https://assets10.lottiefiles.com/packages/lf20_1jXwep7pBb.json"
+          background="transparent"
+          speed="1.5"
+          loop
+          autoplay
+        ></lottie-player>
         </div>
       </header>
       <main>
