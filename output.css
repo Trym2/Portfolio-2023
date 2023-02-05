@@ -537,6 +537,11 @@ video {
   margin-bottom: 7rem;
 }
 
+.my-36 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -577,6 +582,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .block {
   display: block;
 }
@@ -609,16 +618,16 @@ video {
   max-width: 80rem;
 }
 
+.max-w-xs {
+  max-width: 20rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
 
 .max-w-prose {
   max-width: 65ch;
-}
-
-.max-w-xs {
-  max-width: 20rem;
 }
 
 .flex-row {
