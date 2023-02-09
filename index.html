@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="/output.css" rel="stylesheet" />
+    <link href="/build.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,8 +35,11 @@
     <link rel="manifest" href="/icons/site.webmanifest" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
-  <body>
-    <div class="p-7 max-w-7xl mx-auto ">
+  <body id="body">
+    <div class="p-7 max-w-7xl mx-auto">
+      <div class=" mb-36 lg:mb-0">
+
+  
       <nav class="flex flex-row justify-between items-center mb-20 lg:mb-0">
         <a href="/" class="font-semibold flex flex-row items-center gap-4">
           <img src="icons/Group 2 (1).png" width="28" height="28" alt="Personlig logo" />Trym Foss</a
@@ -52,13 +55,13 @@
         </a>
         </div>
       </nav>
-      <header class="mb-36 lg:flex flex-row justify-between gap-8 items-center mt-20">
+      <header id="header" class="lg:flex flex-row justify-between gap-8 items-center lg:h-screen" style="height: calc(100vh - 60px)">
         <div>
-          <h1 class="text-6xl mb-4 max-w-xs">
+          <h1 class="text-6xl mb-4 max-w-md">
             <span class="font-semibold ">Utvikler</span> og
             <span class="font-semibold">Designer</span>
           </h1>
-          <p class="text-xl mb-9 max-w-md">
+          <p class="text-xl lg:text-2xl mb-9 max-w-xs">
             med stor interesse for
             <span class="font-semibold">brukeropplevelse</span> og
             <span class="font-semibold">universell utforming</span>
@@ -75,7 +78,7 @@
 
    <div>
     <lottie-player
-    class="mt-14 lg:mt-0 lg:w-[500px] h-auto"
+    class="mt-14 lg:mt-0 lg:w-[600px] h-auto max-w-[600px]" 
       src="https://assets10.lottiefiles.com/packages/lf20_1jXwep7pBb.json"
       background="transparent"
       speed="1.5"
@@ -84,9 +87,10 @@
     ></lottie-player>
   </div>
       </header>
+    </div>
       <main>
         <section class="flex flex-col">
-          <div class="lg:flex lg:flex-row lg:gap-6">
+          <div class="lg:flex lg:flex-row lg:gap-6 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img
@@ -107,7 +111,7 @@
             </div>
           </div>
 
-          <div class="lg:flex lg:flex-row lg:gap-6 my-28">
+          <div class="lg:flex lg:flex-row lg:gap-6 my-28 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img
@@ -128,7 +132,7 @@
             </div>
           </div>
 
-          <div class="lg:flex lg:flex-row lg:gap-6">
+          <div class="lg:flex lg:flex-row lg:gap-6 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img src="icons/happyemoji.svg" alt="" width="26" height="26" />
@@ -145,7 +149,7 @@
           </div>
         </section>
 
-        <section class="my-36">
+        <section class="my-36 fade-in">
           <h2 class="text-3xl font-semibold mb-10">Utvalgte prosjekter</h2>
           <div class="lg:flex flex-row gap-8">
             <div class="mb-10 max-w-md">
@@ -232,7 +236,8 @@
         </div>
         <p class="font-semibold">Trym Foss</p>
       </div>
-    </footer>
-    <script defer src="/_vercel/insights/script.js"></script>
+    </footer >
+    <script src="/app.js"></script>
+
   </body>
 </html>
