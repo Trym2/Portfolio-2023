@@ -10,6 +10,10 @@ body {
     aspect-ratio: 8 / 7;
 }
 
+.blockchain {
+  aspect-ratio: 1.52 / 1
+}
+
 .fade-in {
     opacity: 0;
     transform: translateX(50px);

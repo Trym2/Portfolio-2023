@@ -697,8 +697,8 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-36 {
-  margin-bottom: 9rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mb-6 {
@@ -721,8 +721,8 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-36 {
+  margin-bottom: 9rem;
 }
 
 .box-border {
@@ -2390,6 +2390,10 @@ body {
 
 .aspectratio {
   aspect-ratio: 8 / 7;
+}
+
+.blockchain {
+  aspect-ratio: 1.52 / 1
 }
 
 .fade-in {
