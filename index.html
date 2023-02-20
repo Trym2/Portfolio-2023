@@ -2,9 +2,6 @@
 <html lang="no">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="/build.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +16,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
   <link rel="manifest" href="/icons/site.webmanifest">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" async>
 </head>
 
 <body id="body">
@@ -31,8 +30,8 @@
           <img src="icons/group2.png" width="28" height="28" alt="Personlig logo">Trym Foss</a>
         <div class="flex flex-row items-center gap-10 ">
           <a class="font-medium hidden md:block" href="/about.html">Om meg</a>
-          <a href="https://github.com/Trym2" target="_blank"><img alt="Github" src="icons/github-black.png" width="24" height="24"></a>
-          <a href="https://www.linkedin.com/in/trym-foss-814643264/" target="_blank"><img alt="Github" src="icons/linkedin-black.png" width="24" height="24"></a>
+          <a href="https://github.com/Trym2" target="_blank"><img alt="Github" src="icons/github-black.png" width="30" height="30"></a>
+          <a href="https://www.linkedin.com/in/trym-foss-814643264/" target="_blank"><img alt="Github" src="icons/linkedin-black.png" width="30" height="30"></a>
           <a href="mailto:trym-foss@hotmail.com"
             class="bg-[#1F1F1F] border items-center md:visible md:block md:inline-flex md:flex-row text-white px-8 py-4 gap-3 rounded-xl hidden">
             <p>Kontakt meg</p>
@@ -133,7 +132,14 @@
 
           <a href="blockchain-venture.html">
             <div class="mb-16">
-              <img alt="blockchain ventures" class="rounded-xl drop-shadow-2xl blockchain" src="icons/blockchain-popout.png" width="1053">
+              <img
+              srcset="icons/blockchain-min.png 500w, icons/blockchain-popout.webp 1200w"
+              sizes="(max-width: 600px) 500px, 1200px"
+              alt="blockchain ventures"
+              class="rounded-xl drop-shadow-2xl blockchain"
+              width="1053"
+              src="icons/blockchain-popout.webp"
+            >
               <div class="mt-2.5 flex flex-row items-center justify-between">
                 <p class="font-semibold">Blockchain Vent.</p>
                 <p class="font-medium">Designkonsept</p>
@@ -143,7 +149,7 @@
 
           <div class="lg:flex flex-row justify-between gap-8">
             <div class="mb-10 ">
-              <a href="/bedring-app.html"><img class="rounded-xl" src="icons/bedring-app-min.jpg"
+              <a href="/bedring-app.html"><img class="rounded-xl" src="icons/bedring-app-min.webp"
                   alt="Hånd som holder mobil med applikasjonen Bedring oppe" width="497" height="312"></a>
               <div class="mt-2.5 flex flex-row items-center justify-between">
                 <p class="font-semibold">Bedring</p>
@@ -153,7 +159,7 @@
 
 
             <div class="mb-10">
-              <a href="/typing-test.html"><img class="rounded-xl" src="icons/frame1.png"
+              <a href="/typing-test.html"><img class="rounded-xl" src="icons/frame1.webp"
                   alt="Hånd som holder mobil med applikasjonen Bedring oppe" width="497" height="312"></a>
               <div class="mt-2.5 flex flex-row items-center justify-between">
                 <p class="font-semibold">Minimalistisk Skrivetest</p>
@@ -209,7 +215,7 @@
     </div>
   </footer>
   <script src="/app.js"></script>
-  
+  <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>
