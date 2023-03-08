@@ -656,20 +656,16 @@ video {
   max-width: 65ch;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
 
 .max-w-\[550px\] {
   max-width: 550px;
-}
-
-.max-w-sm {
-  max-width: 24rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
 }
 
 .flex-row {

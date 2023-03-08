@@ -2,6 +2,7 @@
 <html lang="no">
   <head>
     <link href="/build.css" rel="stylesheet" />
+    <link href="/input.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -127,7 +128,7 @@
             </p>
           </div>
 
-          <div class="lg:flex lg:flex-row lg:gap-6">
+          <div class="lg:flex lg:flex-row lg:gap-6 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img
@@ -149,7 +150,7 @@
             </article>
           </div>
 
-          <div class="lg:flex lg:flex-row lg:gap-6 my-28 lg:my-32">
+          <div class="lg:flex lg:flex-row lg:gap-6 my-28 lg:my-32 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img
@@ -160,7 +161,7 @@
                 />
               </div>
             </div>
-            <article>
+            <article >
               <h2 class="text-3xl font-semibold my-2">God SEO</h2>
               <p class="font-medium max-w-prose">
                 SEO (kort for search engine optimization eller
@@ -175,13 +176,13 @@
             </article>
           </div>
 
-          <div class="lg:flex lg:flex-row lg:gap-6">
+          <div class="lg:flex lg:flex-row lg:gap-6 fade-in">
             <div class="bg-[#D7E3FF] lg:h-full inline-block p-1 rounded-[22px]">
               <div class="bg-[#3772FF] p-3 rounded-[19px]">
                 <img src="icons/happyemoji.svg" alt="" width="26" height="26" />
               </div>
             </div>
-            <article>
+            <article class="fade-in">
               <h2 class="text-3xl font-semibold my-2">Universelt utformet</h2>
               <p class="font-medium max-w-prose">
                 Universell utforming (UU) er et konsept som går ut på at
@@ -198,7 +199,7 @@
           <h2 class="text-3xl font-semibold mb-16">Utvalgte prosjekter</h2>
           <div class="inline-block">
             <a href="blockchain-venture.html">
-              <div class="mb-16">
+              <div class="mb-16 fade-in">
                 <img
                   alt="blockchain ventures"
                   class="rounded-xl drop-shadow-lg blockchain"
@@ -212,7 +213,7 @@
               </div>
             </a>
 
-            <div class="mb-10">
+            <div class="mb-10 fade-in">
               <a href="/ui-challenge.html"
                 ><img
                   class="rounded-xl drop-shadow-md"
@@ -227,7 +228,7 @@
               </div>
             </div>
 
-            <div class="lg:flex flex-row justify-between gap-8">
+            <div class="lg:flex flex-row justify-between gap-8 fade-in">
               <div class="mb-10">
                 <a href="/bedring-app.html"
                   ><img
@@ -318,5 +319,6 @@
       async
       src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
