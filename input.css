@@ -6,6 +6,10 @@ body {
     color: #1F1F1F;
 }
 
+p {
+  font-size: 18px;
+}
+
 .aspectratio {
     aspect-ratio: 8 / 7;
 }
